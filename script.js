@@ -84,10 +84,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     const text = stat.textContent;
                     if (text === '6') {
                         animateCounter(stat, 6);
-                    } else if (text === '85%') {
-                        animateCounter(stat, 85);
-                    } else if (text === '2024') {
-                        animateCounter(stat, 2024);
+                    } else if (text === '2025') {
+                        animateCounter(stat, 2025);
                     }
                 });
                 statsObserver.unobserve(entry.target);
